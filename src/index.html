@@ -13,6 +13,11 @@
 
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        // Add jQuery
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="/path/to/parallax-background.min.js"></script>
+
         
     </head>
     <body>
@@ -27,6 +32,11 @@
              <nav> 
                 <div class="logo">
                     <img src="img/logo.png"/>
+                    <script>
+                        (function ($) {
+                            $('.class.logo').parallaxBackground();
+                        })(jQuery);
+                    </script>
                 </div>
                 <div class="menu">
                     <ul>
@@ -67,7 +77,7 @@
                 <p> Throughout the past year Danish tech writer Rasmus Palludan has gone on a journey to understand the current landscape of Virtual Reality and Augmented Reality, get different perspectives from renowned futurists, psychiatrists, philosophers, sociologists, technologists and added his own personal thoughts on what the reality of tomorrow may be. On a parallel, more visual path interaction design student Erika Marthins has researched and developed a series of photos that explore a future where we’re completely immersed in a virtual world. Their crafts come together in this intriguing piece called ‘Clouded Future.’ </p>
                     <blockquote>
                         <p> In the short term VR (and AR) is overhyped, but in the long term it’s underhyped. </p>
-                        <cite>Kevin Kelly</cite>
+                        <cite>Kevin Kelly</cite> <br>
                         <img src="img/Untitled-4.png"/>
                     </blockquote>
             </article>

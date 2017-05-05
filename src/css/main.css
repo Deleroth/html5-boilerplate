@@ -1,8 +1,4 @@
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -14,18 +10,6 @@ html {
     line-height: 1.4;
 }
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
 
 /*
  * A better looking default horizontal rule
@@ -138,7 +122,8 @@ table {
    Author's custom styles
    ========================================================================== */
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', 
+    sans-serif;
 }
 header {
     background: black;
@@ -148,15 +133,24 @@ header {
 }
 
 h1{
+    text-shadow:3px 6px 0 rgba(94,191,255,0.7);
+    font-weight:bold;
+    color:#FFC7E1;
+    letter-spacing:2pt;
+    word-spacing:1pt;
+    font-size:70px;
+    font-family:impact, 
+    sans-serif;
+    line-height:1;
     text-align: center;
     padding: 10vh 0 10vh;
-    font-size: 48px;
-    color: #ffe6e6;
 }
 
 h2{
     font-size: 32px;
-    color: #ccffff;
+    font-family:impact, 
+    sans-serif;
+    color:#5EBFFF;
     text-align: center;
 }
 
@@ -209,7 +203,7 @@ section.bigimage img {
 }
 
 section.whoarewe {
-    background:gray;
+    background:black;
     color: pink
 }
 
@@ -258,9 +252,14 @@ article {
 
 }
 
+blockquote p {
+
+}
+
 article img {
-    width: 100%;
+    width: 50%;
     height: auto;
+    left: 0;
 }
 
 
