@@ -66,7 +66,7 @@ fieldset {
 }
 
 /*
- * Allow only vertical resizing of textareas.
+ * Allow only vertical resizing of text areas.
  */
 
 textarea {
@@ -76,6 +76,56 @@ textarea {
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
 .browserupgrade {
     margin: 0.2em 0;
@@ -87,19 +137,136 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    background: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    padding: 10vh 0 10vh;
+    font-size: 48px;
+    color: #ffe6e6;
+}
+
+h2{
+    font-size: 32px;
+    color: #ccffff;
+    text-align: center;
+}
+
+nav {
+    background: black;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+}
 
 
+div.logo img{
+    width: 60px;
+    position: absolute;
+    top: -5px;
+    left: 0; 
+}
+
+div.menu {
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right; 
+    padding-right: 20px;
+    padding-top: 12px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+header nav div.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+section.bigimage img {
+    width: 100%;
+    height: auto;
+}
+
+section.whoarewe {
+    background:gray;
+    color: pink
+}
+
+section.whoarewe h1{
+    width: 100%;
+}
+
+section.whoarewe div{
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+section.whoarewe img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.whoarewe h2{
+    margin: 20px 0 20px;
+    text-align: center; 
+}
+
+section.whoarewe p {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+section.explanation {
+    background: black;
+    color: pink;
+}
+
+section.explanation p{
+    line-height: 20px;
+    margin: 20px;
+}
+
+aside {
+    background: pink;
+}
+
+article {
+
+}
+
+article img {
+    width: 100%;
+    height: auto;
+}
 
 
-
-
-
-
-
-
-
-
-
+footer {
+    background: pink;
+}
 
 
 

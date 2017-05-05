@@ -3,16 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
+        <title> Post Scriptum </title>
+        <meta name="description" content="We are launching soon!">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
+        <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -20,9 +21,74 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+
+        <!--Structural Elements -->
+
+             <nav> 
+                <div class="logo">
+                    <img src="img/logo.png"/>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#/home">Home</a></li>
+                        <li><a href="#/about">About Us</a></li>
+                        <li><a href="#/work">Projects</a></li>
+                        <li><a href="#/contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        <header> 
+         <section class="bigimage">
+            <img src="img/Doors.png"/>
+        </section>
+        </header>
+
+        <section class="whoarewe">
+
+            <h1> Who are we? </h1>
+
+            <div class="pinar">
+                <img src="img/pinar.jpg">
+                <h2>Pınar Barlas</h2>
+                <p>Researcher, planner, designer, futurologist, activist.</p>
+            </div>
+
+            <div class="simge">
+                <img src="img/simge.jpg">
+                <h2>Simge Toksöz</h2>
+                <p>Interaction designer with a focus on multimedia storytelling based in Barcelona and Ankara. </p>
+            </div>
+            
+         </section>
+
+        <section class="explanation"> 
+            <article> 
+                <p> Throughout the past year Danish tech writer Rasmus Palludan has gone on a journey to understand the current landscape of Virtual Reality and Augmented Reality, get different perspectives from renowned futurists, psychiatrists, philosophers, sociologists, technologists and added his own personal thoughts on what the reality of tomorrow may be. On a parallel, more visual path interaction design student Erika Marthins has researched and developed a series of photos that explore a future where we’re completely immersed in a virtual world. Their crafts come together in this intriguing piece called ‘Clouded Future.’ </p>
+                    <blockquote>
+                        <p> In the short term VR (and AR) is overhyped, but in the long term it’s underhyped. </p>
+                        <cite>Kevin Kelly</cite>
+                        <img src="img/Untitled-4.png"/>
+                    </blockquote>
+            </article>
+         </section>
+         
+        <aside> Aside </aside>
+        
+        <footer> Footer </footer>
+
+
+        <!--Typographic Elements -->
+        
+
+        <a href="http://www.google.com">Google</a>
+
+        <!--Images -->
+
+
+
+        
+        <script src="js/vendor/jquery-3.2.1.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
