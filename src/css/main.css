@@ -197,9 +197,9 @@ header nav div.menu a {
     text-decoration: none;
 }
 
-section.bigimage img {
-    width: 100%;
-    height: auto;
+section.bigimage {
+    background-image: url("../img/Doors.png"); 
+    height: 50vh;
 }
 
 section.whoarewe {

@@ -13,10 +13,7 @@
 
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        // Add jQuery
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-        <script src="/path/to/parallax-background.min.js"></script>
+
 
         
     </head>
@@ -32,11 +29,7 @@
              <nav> 
                 <div class="logo">
                     <img src="img/logo.png"/>
-                    <script>
-                        (function ($) {
-                            $('.class.logo').parallaxBackground();
-                        })(jQuery);
-                    </script>
+                    
                 </div>
                 <div class="menu">
                     <ul>
@@ -49,8 +42,8 @@
             </nav>
 
         <header> 
-         <section class="bigimage">
-            <img src="img/Doors.png"/>
+         <section class="bigimage" data-paroller-factor="0.9" data-paroller-type="foreground" data-paroller-direction="vertical">
+            
         </section>
         </header>
 
@@ -97,8 +90,11 @@
 
 
 
-        
-        <script src="js/vendor/jquery-3.2.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+                <script src="js/vendor/jquery-3.2.1.js"></script>
+        <script src="js/vendor/parallax-background.min.js"></script>
+
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
