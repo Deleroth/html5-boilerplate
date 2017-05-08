@@ -128,8 +128,7 @@ body {
 header {
     background: black;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: top center;
 }
 
 h1{
@@ -198,8 +197,8 @@ header nav div.menu a {
 }
 
 section.bigimage {
-    background-image: url("../img/Doors.png"); 
-    height: 50vh;
+    background-image: url("../img/Doors1.png"); 
+    height: 70vh;
 }
 
 section.whoarewe {
