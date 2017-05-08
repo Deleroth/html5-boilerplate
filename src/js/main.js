@@ -1,7 +1,14 @@
 console.log('Hello world!');
 
-	var offsetAmount = -($(window).scrollTop() * 2.5);
-	$('header').css({
+
+
+  $(window).scroll(function() {
+  	/*
+ +		Parallax Header
+ +	*/ 
+ 	console.log (scroll);
+	var offsetAmount = -($(window).scrollTop() * 0.5);
+	$('section.backgroundimage').css({
 		'background-position-y': offsetAmount
 	});
-	
+	});
