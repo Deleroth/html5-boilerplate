@@ -127,8 +127,6 @@ body {
 }
 header {
     background: black;
-    background-repeat: no-repeat;
-    background-position: top center;
 }
 
 h1{
@@ -196,9 +194,13 @@ header nav div.menu a {
     text-decoration: none;
 }
 
-section.bigimage {
-    background-image: url("../img/Doors1.png"); 
-    height: 70vh;
+section.backgroundimage {
+    background-image: url("../img/doors1.png");
+    height: 100vh;
+    display: block;
+
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 section.whoarewe {
