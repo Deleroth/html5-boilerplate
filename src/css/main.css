@@ -198,7 +198,6 @@ section.backgroundimage {
     background-image: url("../img/doors1.png");
     height: 100vh;
     display: block;
-
     background-repeat: no-repeat;
     background-position: top center;
 }
@@ -253,14 +252,30 @@ article {
 
 }
 
-blockquote p {
-
+blockquote {
+    background: url(images/bg-quote1.png) no-repeat;
+    color: #a5a4a4;
+    font-style: italic;
+    margin: 30px;
+    padding: 30px 30px 30px 50px;
 }
 
-article img {
-    width: 50%;
+blockquote:first-letter {
+    float: left;
+    margin: -9px 6px 0 0;
+    font-size: 35px;
+}
+
+section.gallery {
+    width: 70%;
     height: auto;
-    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+button:focus {
+    background: pink;
 }
 
 
