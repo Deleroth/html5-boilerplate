@@ -22,12 +22,12 @@ $(document).ready(function() {
 	var images = ['img/schoolmedia.png', 'img/superheroes.png', 'img/wedgeit.png', 'img/lightshadow.png'];
 	var counter = 0;
 
-	$('.gallery img').click(function() {
+	$('.right-arrow img').click(function() {
 		counter++;
 		if (counter === images.length) {
 			counter = 0;
 		}
-		$(this).attr('src', images[counter]);
+		$('.gallery img').attr('src', images[counter]);
 	});
 
 });
