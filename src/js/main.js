@@ -22,11 +22,25 @@ $(document).ready(function() {
 	var images = ['img/schoolmedia.png', 'img/superheroes.png', 'img/wedgeit.png', 'img/lightshadow.png'];
 	var counter = 0;
 
-	$('.right-arrow img').click(function() {
+	$('.nextbutton img').click(function() {
 		counter++;
 		if (counter === images.length) {
 			counter = 0;
 		}
+		$('.gallery img').attr('src', images[counter]);
+	});
+
+	$('.backbutton img').click(function() {
+		
+		if (counter === 0) {
+			counter = images.length - 1;
+		} else {
+			counter--;
+		}
+
+
+		console.log(counter);
+
 		$('.gallery img').attr('src', images[counter]);
 	});
 

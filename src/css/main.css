@@ -131,15 +131,15 @@ header {
 }
 
 h1{
-    text-shadow:3px 6px 0 rgba(94,191,255,0.7);
-    font-weight:bold;
+    text-shadow: 3px 6px 0 rgba(94,191,255,0.7);
+    font-weight: bold;
     color:#FFC7E1;
-    letter-spacing:2pt;
-    word-spacing:1pt;
-    font-size:70px;
-    font-family:impact, 
+    letter-spacing: 2pt;
+    word-spacing: 1pt;
+    font-size: 70px;
+    font-family: impact, 
     sans-serif;
-    line-height:1;
+    line-height: 1;
     text-align: center;
     padding: 10vh 0 10vh;
 }
@@ -165,9 +165,9 @@ nav {
 
 
 div.logo img{
-    width: 60px;
+    width: 5%;
     position: absolute;
-    top: -5px;
+    top: 0;
     left: 0; 
 }
 
@@ -205,7 +205,7 @@ section.backgroundimage {
 
 section.whoarewe {
     background:black;
-    color: pink
+    color: pink;
 }
 
 section.whoarewe h1{
@@ -254,7 +254,6 @@ article {
 }
 
 blockquote {
-    background: url(images/bg-quote1.png) no-repeat;
     color: #a5a4a4;
     font-style: italic;
     margin: 30px;
@@ -267,12 +266,56 @@ blockquote:first-letter {
     font-size: 35px;
 }
 
-section.gallery {
-    width: 70%;
-    height: auto;
+section.gallerycontainer {
+    background: black;
+
+}
+
+div.backbutton {
+    width: 15%;
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+    padding: 15px;
+}
+
+div.backbutton img {
+    width: 100%;
     display: block;
     margin: auto;
+    text-align: center;
+    max-width: 100%;
 }
+
+div.nextbutton {
+    width: 15%;
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    padding: 15px;
+}
+
+div.nextbutton img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 100%;
+    }
+
+div.gallery {
+    width: 65%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+div.gallery img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
 
 button:focus {
     background: pink;
