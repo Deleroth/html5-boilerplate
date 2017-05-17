@@ -131,9 +131,9 @@ header {
 }
 
 h1{
-    text-shadow: 3px 6px 0 rgba(94,191,255,0.7);
+    text-shadow: 3px 6px 0 rgba(116,175,173,0.7);
     font-weight: bold;
-    color:#FFC7E1;
+    color:#D9853B;
     letter-spacing: 2pt;
     word-spacing: 1pt;
     font-size: 70px;
@@ -148,24 +148,24 @@ h2{
     font-size: 32px;
     font-family:impact, 
     sans-serif;
-    color:#5EBFFF;
+    color:#D9853B;
     text-align: center;
 }
 
 nav {
-    background: black;
+    background: #D9853B;
     text-align: center;
     position: relative;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
-    height: 50px;
+    height: 60px;
 }
 
 
 div.logo img{
-    width: 5%;
+    width: 4%;
     position: absolute;
     top: 0;
     left: 0; 
@@ -195,17 +195,35 @@ header nav div.menu a {
     text-decoration: none;
 }
 
+body {
+        background: #ECECEA;
+
+}
+
 section.backgroundimage {
-    background-image: url("../img/doors1.png");
-    height: 100vh;
+    background-image: url("../img/parallax.jpg");
+    min-height: 70vh;
     display: block;
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: 100%;
+
+}
+
+section.backgroundimage img {
+    width: 1200px;
+    height: auto;
+    left: 50%;
+    top: 0;
+    margin-left: -600px;
+    position: absolute;
+    text-align: center;
+
 }
 
 section.whoarewe {
-    background:black;
-    color: pink;
+    color: black; 
+    background: #ECECEA; 
 }
 
 section.whoarewe h1{
@@ -236,13 +254,13 @@ section.whoarewe p {
 }
 
 section.explanation {
-    background: black;
-    color: pink;
+    color: black;
 }
 
 section.explanation p{
     line-height: 20px;
-    margin: 20px;
+    margin: 20px 200px;
+
 }
 
 aside {
@@ -257,7 +275,7 @@ blockquote {
     color: #a5a4a4;
     font-style: italic;
     margin: 30px;
-    padding: 30px 30px 30px 50px;
+    padding: 10px 30px;
 }
 
 blockquote:first-letter {
@@ -266,45 +284,49 @@ blockquote:first-letter {
     font-size: 35px;
 }
 
+blockquote cite {
+    padding-left: 200px;
+}
+
 section.gallerycontainer {
-    background: black;
+    display: inline-block;
 
 }
 
 div.backbutton {
-    width: 15%;
+    width: 20%;
     display: inline-block;
     float: left;
-    vertical-align: top;
     padding: 15px;
 }
 
 div.backbutton img {
-    width: 100%;
+    width: 250px;
+    top: 50%;
+    margin-top: -125px;
     display: block;
     margin: auto;
     text-align: center;
-    max-width: 100%;
 }
 
 div.nextbutton {
-    width: 15%;
+    width: 20%;
     display: inline-block;
     float: right;
-    vertical-align: top;
     padding: 15px;
 }
 
 div.nextbutton img {
-    width: 100%;
+    width: 90%;
     display: block;
     margin: auto;
     text-align: center;
     max-width: 100%;
+
     }
 
 div.gallery {
-    width: 65%;
+    width: 55%;
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -313,7 +335,8 @@ div.gallery {
 div.gallery img {
     display: block;
     margin: auto;
-    max-width: 100%;
+    width: 800px;
+    height: auto;
 }
 
 
